@@ -10,7 +10,7 @@ Die Video Kurs Software ist eine fortschrittliche, webbasierte Lösung für die 
 - [Menüanpassungen](#menüanpassungen)
 - [Videoanpassungen](#videoanpassungen)
 - [Anpassung von Video-Titeln und -Beschreibungen](#anpassung-von-video-titeln-und--beschreibungen)
-- [Anpassung](#anpassung)
+- [Weitere Anpassung](#weitere-anpassung)
 - [Funktionsübersicht](#funktionsübersicht)
 - [Lizenzverwaltung](#lizenzverwaltung)
 - [Sicherheit](#sicherheit)
@@ -90,7 +90,7 @@ Die **Titel** und **Beschreibungen** der Videos können in der `index.php` geän
 
 
 
-## Anpassung
+## Weitere Anpassung
 
 Personalisieren Sie die Plattform durch Bearbeitung folgender Bereiche:
 
