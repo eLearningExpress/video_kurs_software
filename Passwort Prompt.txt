@@ -1,0 +1,12 @@
+Chat GPT Prompt
+===============
+
+Ich benötige 100 Passwörter mit:
+
+- Genau 11 Zeichen
+- Genau 1 Sonderzeichen
+- mindestens 1 Zahl
+- mindestens 1 Kleichbuchstaben
+- mindestens 1 Großbuchstaben
+
+Beispiel: a#B1cdefGhi

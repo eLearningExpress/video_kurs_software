@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login - E-Learning Express</title>
+        <meta
+            name="description"
+            content="Umfassende Video-Dokumentationsserie mit detaillierten Anleitungen und Informationen zu verschiedenen Themen. Perfekt geeignet für Lernen und Weiterbildung.">
+        <meta
+            name="keywords"
+            content="Video, Dokumentation, Bildung, Lernen, Anleitungen, Informationen, Serie">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    </head>
+    <body>
+        <main class="form-signin w-100 m-auto">
+            <form>
+                <div class="svg-container">
+                    <svg
+                        class="bi me-2"
+                        width="80"
+                        height="64"
+                        fill="currentColor"
+                        viewbox="0 0 16 16"
+                        aria-labelledby="svgTitle">
+                        <title id="svgTitle">Video Dokumentation Icon</title>
+                        <path
+                            d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                    </svg>
+                </div>
+                <div class="centered-container">
+                    <h1 class="h3 mb-3 fw-normal text-center">Bitte geben Sie Ihren Lizenzschlüssel ein!</h1>
+
+                    <div class="form-floating text-center">
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="licenseKey"
+                            placeholder="Lizenzschlüssel">
+                        <label for="licenseKey">Lizenzschlüssel</label>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary w-100 mb-5 py-3" type="submit">Videokurs freischalten</button>
+                <div class="checkbox mb-3 text-center">
+                    <label>
+                        <input type="checkbox" id="privacyCheckbox">
+                        Ich habe die <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a> gelesen und stimme dieser zu!
+                    </label>
+                </div>
+
+            </form>
+        </main>
+        <footer class="footer mt-5 py-5 bg-body-tertiary">
+            <div class="container text-center">
+                <span id="current-year">© </span>
+                    bei E-Learning Express |
+                    <a href="impressum.html" target="_blank">Impressum</a>
+            </div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/year.js"></script>
+    </body>
+</html>

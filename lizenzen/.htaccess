@@ -1,0 +1,10 @@
+# Verhindern des direkten Zugriffs auf die lizenzen.txt Datei
+
+<Files "lizenzen.txt">
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Benutzerdefinierte Fehlerseite für den 403-Fehler
+
+ErrorDocument 403 /vd/custom_403.html
